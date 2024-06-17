@@ -1,0 +1,15 @@
+{
+  "name": "nodo",
+  "version": "1.0.0",
+  "description": "a todolist that work for personal/team use",
+  "private": true,
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon server/server.js --prefix server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Anisboudaren",
+  "license": "ISC",
+  "main": "index.js",
+  "keywords": []
+}
